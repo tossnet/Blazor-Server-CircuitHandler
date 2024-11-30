@@ -1,0 +1,30 @@
+﻿@page "/"
+
+@inject SettingsService settingsService
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<p>@message</p>
+
+@code {
+
+	string message = string.Empty;
+
+	protected override void OnAfterRender(bool firstRender)
+	{
+		base.OnAfterRender(firstRender);
+
+		if (!firstRender)
+			return;
+
+		settingsService.MyName = "Martin";
+
+		message = settingsService.MyName;
+
+		StateHasChanged();
+	}
+}

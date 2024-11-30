@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35507.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor-Server-CircuitHandler", "Blazor-Server-CircuitHandler\Blazor-Server-CircuitHandler.csproj", "{E96F932F-1087-46C9-BF92-F36270B7300D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E96F932F-1087-46C9-BF92-F36270B7300D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96F932F-1087-46C9-BF92-F36270B7300D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96F932F-1087-46C9-BF92-F36270B7300D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96F932F-1087-46C9-BF92-F36270B7300D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F014F4D-7BF9-4148-8F8C-54A49565C02F}
+	EndGlobalSection
+EndGlobal
